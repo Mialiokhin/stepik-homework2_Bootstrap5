@@ -1,0 +1,73 @@
+.lol {
+  font-size: 72px;
+  font-weight: 300;
+  color: #212529;
+}
+
+.navbar-nav a {
+  color: #ffffff;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.portfolio {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.portfolio p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+
+.mel1 {
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 20px 0 20px 20px;
+}
+.bloki h6 {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 5px 0px 5px 20px;
+  margin: 0;
+}
+.td-blue {
+  color: #007bff;
+}
+.td-all {
+  font-size: 16px;
+  width: 400;
+}
+thead {
+  font-weight: bold;
+}
+.table-bordered thead td {
+  border-bottom: 0px;
+}
+footer {
+  height: 56px;
+  background-color: #f5f5f5;
+  color: #6c757d;
+  padding: 16px 0 16px 55px;
+}
+.fifa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.fifa p {
+  padding-right: 10px;
+}
+@media screen and (max-width: 576px) {
+  .lol {
+    font-size: 48px;
+  }
+  footer {
+    height: 100px;
+  }
+}
